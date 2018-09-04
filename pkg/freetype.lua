@@ -5,9 +5,9 @@ return {
         sha256sum = '57bce5b37989577aa8b4a588426839f6bf39bcc3869748cb18f6827df251f4e5'
     },
     patches = {
-        { 'freetype-2.3.2-enable-valid.patch',   1 },
-        { 'freetype-2.4.11-sizeof-types.patch',  1 },
-        { 'freetype-2.4.12-clean-include.patch', 1 }
+        'freetype-2.3.2-enable-valid.patch',
+        'freetype-2.4.11-sizeof-types.patch',
+        'freetype-2.4.12-clean-include.patch',
     },
     build = {
         type    = 'gnu',

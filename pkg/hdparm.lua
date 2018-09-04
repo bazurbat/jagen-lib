@@ -6,7 +6,7 @@ return {
     },
     patches = {
         -- borrowed from Gentoo
-        { 'hdparm-9.48-sysmacros.patch', 1 },
+        'hdparm-9.48-sysmacros.patch',
     },
     build = {
         type = 'make',

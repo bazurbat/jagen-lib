@@ -6,9 +6,9 @@ return {
     },
     patches = {
         -- borrowed from Gentoo
-        { 'e2fsprogs-1.41.8-makefile.patch', 1 },
-        { 'e2fsprogs-1.42.13-fix-build-cflags.patch', 1 },
-        { 'e2fsprogs-1.43-sysmacros.patch', 1 },
+        'e2fsprogs-1.41.8-makefile.patch',
+        'e2fsprogs-1.42.13-fix-build-cflags.patch',
+        'e2fsprogs-1.43-sysmacros.patch',
     },
     build = {
         type = 'gnu',
