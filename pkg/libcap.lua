@@ -6,10 +6,10 @@ return {
     },
     patches = {
         -- taken from Gentoo
-        { 'libcap-2.25-build-system-fixes', 1 },
-        { 'libcap-2.22-no-perl', 1 },
-        { 'libcap-2.25-ignore-RAISE_SETFCAP-install-failures', 1 },
-        { 'libcap-2.21-include', 0 },
+        { 'libcap-2.25-build-system-fixes.patch', 1 },
+        { 'libcap-2.22-no-perl.patch', 1 },
+        { 'libcap-2.25-ignore-RAISE_SETFCAP-install-failures.patch', 1 },
+        { 'libcap-2.21-include.patch', 0 },
     },
     build = {
         type = 'make',

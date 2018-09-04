@@ -5,8 +5,8 @@ return {
         sha256sum = '8beb7590674957b931de6b7f81c530b85dc7c1ad8fbda015398bc1e8d1ce8ec5'
     },
     patches = {
-        { 'libnl-3.2.20-rtnl_tc_get_ops', 1 },
-        { 'libnl-3.2.20-cache-api',       1 },
+        { 'libnl-3.2.20-rtnl_tc_get_ops.patch', 1 },
+        { 'libnl-3.2.20-cache-api.patch',       1 },
     },
     build = {
         type    = 'gnu',

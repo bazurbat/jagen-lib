@@ -5,7 +5,7 @@ return {
         sha1sum  = '31f52169bcfeef9efb61480d0950e928ad059552'
     },
     patches = {
-        { 'sqlite-3.8.1-autoconf-dlopen_check', 0 }
+        { 'sqlite-3.8.1-autoconf-dlopen_check.patch', 0 }
     },
     build = {
         type    = 'gnu',

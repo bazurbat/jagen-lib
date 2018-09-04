@@ -5,7 +5,7 @@ return {
         sha256sum = '7c4042bd91f621250d7b3b2f34e3b11921a32c7f080c149dcc0c7ce62a8a7cac'
     },
     patches = {
-        { 'util-linux-2.23.2', 1 }
+        { 'util-linux-2.23.2.patch', 1 }
     },
     build = {
         type = 'gnu',

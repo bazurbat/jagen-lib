@@ -5,7 +5,7 @@ return {
         sha256sum = '3185864c73206a6033d12e9f583689dcd03f714a40a58333709d3f74a4e0934c'
     },
     patches = {
-        { 'connman-1.32-add-missing-gnu-source', 1 }
+        { 'connman-1.32-add-missing-gnu-source.patch', 1 }
     },
     build  = {
         type = 'gnu',
