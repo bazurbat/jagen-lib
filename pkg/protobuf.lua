@@ -17,9 +17,9 @@ return {
             '--without-zlib',
         }
     },
-    requires = {
-        { 'unzip', 'system' },
-    },
+    -- requires = {
+    --     { 'unzip', 'system' },
+    -- },
     configs = {
         target = {
             build = {
