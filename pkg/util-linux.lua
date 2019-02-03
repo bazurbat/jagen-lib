@@ -74,5 +74,7 @@ return {
             '--without-slang',
             '--without-utempter'
         }
-    }
+    },
+    uses = { 'libtool:host' },
+    { 'autoreconf', { 'libtool', 'install', 'host' } }
 }
