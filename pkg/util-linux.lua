@@ -76,5 +76,5 @@ return {
         }
     },
     uses = { 'libtool:host' },
-    { 'autoreconf', { 'libtool', 'install', 'host' } }
+    { 'generate', { 'libtool', 'install', 'host' } }
 }
