@@ -1,7 +1,8 @@
 return {
      source = {
         type = 'dist',
-        location = 'https://capnproto.org/capnproto-c++-0.6.1.tar.gz'
+        location = 'https://capnproto.org/capnproto-c++-0.7.0.tar.gz',
+        sha256sum = 'c9a4c0bd88123064d483ab46ecee777f14d933359e23bff6fb4f4dbd28b4cd41'
     },
     build = {
         type = 'cmake',
