@@ -76,5 +76,5 @@ return {
         }
     },
     uses = { 'libtool:host' },
-    { 'generate', { 'libtool', 'install', 'host' } }
+    { 'patch', { 'libtool', 'install', 'host' } }
 }
