@@ -16,6 +16,9 @@ jagen_pkg_configure_host() {
     if in_flags new_chicken; then
         A="$A$S-DCHICKEN_COMPILER=$jagen_host_dir/bin/chicken-boot"
         A="$A$S-DCHICKEN_INTERPRETER=/usr/bin/csi"
+    else
+        A="$A$S-DCHICKEN_COMPILER=/usr/bin/chicken"
+        A="$A$S-DCHICKEN_INTERPRETER=/usr/bin/csi"
     fi
 
     pkg_configure $A
